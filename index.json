@@ -1,0 +1,328 @@
+{
+  "updated_at": "2025-10-23T02:14:41.067131Z",
+  "sheet_name": "Settings",
+  "source_file": "FFGPT_Settings_Starter.xlsx",
+  "blobs": {
+    "blobJson": {
+      "v": 1,
+      "platform": "Yahoo",
+      "league_id": "27337",
+      "league_name": "Mighty Mighty Lions",
+      "format": "Superflex",
+      "teams": 10,
+      "divisions": 2,
+      "scoring_type": "Head-to-Head",
+      "fractional_points": true,
+      "negative_points": true,
+      "roster_positions_raw": [
+        "QB",
+        "WR",
+        "WR",
+        "RB",
+        "TE",
+        "W/R",
+        "Q/W/R/T",
+        "K",
+        "DEF",
+        "BN",
+        "BN",
+        "BN",
+        "BN",
+        "BN",
+        "BN",
+        "IR",
+        "IR"
+      ],
+      "roster_slots": {
+        "QB": 1,
+        "WR": 2,
+        "RB": 1,
+        "TE": 1,
+        "FLEX": 1,
+        "SFLX": 1,
+        "K": 1,
+        "DEF": 1,
+        "BN": 6,
+        "IR": 2
+      },
+      "waivers": {
+        "type": "rolling",
+        "waiver_time_days": 1,
+        "weekly_reset": "Game Time - Tuesday",
+        "post_draft": "Follow Waiver Rules",
+        "allow_ir_adds_from_waivers": false
+      },
+      "trades": {
+        "review": "League Votes",
+        "reject_time_days": 1,
+        "deadline": "2025-11-22"
+      },
+      "acquisitions": {
+        "per_season_max": null,
+        "per_week_max": 5
+      },
+      "playoffs": {
+        "teams": 6,
+        "weeks": [
+          15,
+          16,
+          17
+        ],
+        "reseeding": true,
+        "tie_breaker": "Best regular season record vs opponent wins"
+      },
+      "scoring": {
+        "passing": {
+          "yds_per_pt": 25,
+          "td": 6,
+          "int": -1,
+          "sack": -1,
+          "pick_six_thrown": -6,
+          "bonus_40yd_completion": 1
+        },
+        "rushing": {
+          "yds_per_pt": 10,
+          "td": 6
+        },
+        "receiving": {
+          "yds_per_pt": 10,
+          "td": 6,
+          "bonus_40yd_reception": 1
+        },
+        "returns": {
+          "yds_per_pt": 10,
+          "td": 6
+        },
+        "two_point": 2,
+        "fumbles_lost": -2,
+        "offensive_fumble_return_td": 6
+      },
+      "defense_special": {
+        "sack": 1,
+        "interception": 2,
+        "fumble_recovery": 2,
+        "td": 6,
+        "safety": 2,
+        "block_kick": 2,
+        "kick_punt_return_td": 6,
+        "points_allowed": {
+          "0": 10,
+          "1-6": 7,
+          "7-13": 4,
+          "14-20": 1,
+          "21-27": 0,
+          "28-34": -1,
+          "35+": -4
+        },
+        "yards_allowed": {
+          "negative": 8,
+          "0-99": 5,
+          "100-199": 5,
+          "200-299": 3,
+          "300-399": 2
+        },
+        "three_and_outs_forced": 1,
+        "extra_point_return": 2
+      },
+      "local_rules": {
+        "qb_roster_limit": 2,
+        "qb_limit_exceptions": {
+          "bye_week": true,
+          "injury_statuses": [
+            "Q",
+            "D",
+            "O",
+            "IR"
+          ]
+        },
+        "notes": "House rule: maximum 2 QBs per team except during QB byes or with listed injury status."
+      },
+      "notes": "Updated to 10 teams on 2025-08-28; settings derived from Yahoo PDF."
+    },
+    "blob_r3_c4": {
+      "starters": {
+        "QB": "Jayden Daniels (WAS)",
+        "WR1": "Davante Adams (LAR)",
+        "WR2": "Rashee Rice (KC)",
+        "RB1": "Javonte Williams (DAL)",
+        "TE": "Jake Ferguson (DAL)",
+        "FLEX": "Jahmyr Gibbs (DET)",
+        "SUPERFLEX": "Dak Prescott (DAL)",
+        "K": "Cameron Dicker (LAC)",
+        "DEF": "New England Patriots (NE)"
+      },
+      "bench": [
+        "Courtland Sutton (DEN)",
+        "Ashton Jeanty (LV)",
+        "Brian Thomas Jr. (JAX)",
+        "Tetairoa McMillan (CAR)",
+        "Emeka Egbuka (TB)",
+        "Los Angeles Chargers DEF (LAC)",
+        "Brock Bowers (LV)"
+      ],
+      "ir": [
+        "Omarion Hampton (LAC)"
+      ],
+      "week": 7,
+      "last_updated": "2025-10-19"
+    },
+    "blob_r4_c4": {
+      "v": 3,
+      "watchlist": [
+        {
+          "name": "Dillon Gabriel",
+          "pos": "QB",
+          "team": "CLE"
+        },
+        {
+          "name": "Isiah Pacheco",
+          "pos": "RB",
+          "team": "KC"
+        },
+        {
+          "name": "DJ Moore",
+          "pos": "WR",
+          "team": "CHI",
+          "status": "Q"
+        },
+        {
+          "name": "Tez Johnson",
+          "pos": "WR",
+          "team": "TB"
+        },
+        {
+          "name": "RJ Harvey",
+          "pos": "RB",
+          "team": "DEN"
+        },
+        {
+          "name": "Jauan Jennings",
+          "pos": "WR",
+          "team": "SF",
+          "status": "Q"
+        },
+        {
+          "name": "Mason Taylor",
+          "pos": "TE",
+          "team": "NYJ"
+        },
+        {
+          "name": "Michael Carter",
+          "pos": "RB",
+          "team": "ARI"
+        },
+        {
+          "name": "Juwan Johnson",
+          "pos": "TE",
+          "team": "NO"
+        },
+        {
+          "name": "Oronde Gadsden",
+          "pos": "TE",
+          "team": "LAC"
+        },
+        {
+          "name": "Brock Bowers",
+          "pos": "TE",
+          "team": "LV",
+          "status": "Q"
+        },
+        {
+          "name": "Dylan Sampson",
+          "pos": "RB",
+          "team": "CLE"
+        },
+        {
+          "name": "Brashard Smith",
+          "pos": "RB",
+          "team": "KC"
+        },
+        {
+          "name": "Emeka Egbuka",
+          "pos": "WR",
+          "team": "TB",
+          "status": "Q"
+        },
+        {
+          "name": "Los Angeles Chargers",
+          "pos": "DEF",
+          "team": "LAC"
+        },
+        {
+          "name": "Jacksonville Jaguars",
+          "pos": "DEF",
+          "team": "JAX"
+        }
+      ]
+    },
+    "blob_r5_c4": {
+      "v": 1,
+      "risk": "balanced",
+      "team_name": "McMisty",
+      "voice": {
+        "tone": "confident",
+        "pace": "brisk"
+      },
+      "content_caps": {
+        "per_outlet": 1
+      }
+    },
+    "blob_r6_c4": {
+      "v": 1,
+      "two_source_rule": true,
+      "news_recency_hours": 24,
+      "no_paywalled_sources": true,
+      "answer_mode": "delta_first"
+    },
+    "blob_r7_c4": {
+      "v": 1,
+      "official": [
+        "nfl_com",
+        "team_sites"
+      ],
+      "injury": [
+        "league_injury_report"
+      ],
+      "media": [
+        "espn_news",
+        "the_athletic",
+        "fantasypros"
+      ],
+      "stats": [
+        "pbp",
+        "snap_counts"
+      ],
+      "weather": [
+        "nws"
+      ]
+    },
+    "blob_r8_c4": {
+      "v": 1,
+      "cadence": {
+        "Mon": "waiver_scan",
+        "Thu": "TNF_updates",
+        "Sun": "inactives_check"
+      },
+      "lookahead_weeks": 2
+    },
+    "blob_r9_c4": {
+      "v": 1,
+      "ceiling_mode": false,
+      "bench_stash_rules": [
+        "high_snap_rookie",
+        "backup_rb_handcuff"
+      ]
+    },
+    "blob_r10_c4": {
+      "v": 1,
+      "auto_questions": [
+        "Any late injury downgrades?",
+        "Who’s the best SFLX this week?"
+      ],
+      "lineup_tiebreakers": [
+        "snaps>matchup",
+        "matchup>projection"
+      ]
+    }
+  }
+}
