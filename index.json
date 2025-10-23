@@ -1,5 +1,5 @@
 {
-  "updated_at": "2025-10-23T02:14:41.067131Z",
+  "updated_at": "2025-10-23T14:21:53.492203Z",
   "sheet_name": "Settings",
   "source_file": "FFGPT_Settings_Starter.xlsx",
   "blobs": {
@@ -141,34 +141,45 @@
     },
     "blob_r3_c4": {
       "starters": {
-        "QB": "Jayden Daniels (WAS)",
-        "WR1": "Davante Adams (LAR)",
-        "WR2": "Rashee Rice (KC)",
+        "QB": "Dak Prescott (DAL)",
+        "WR1": "Emeka Egbuka (TB)",
+        "WR2": "Tetairoa McMillan (CAR)",
         "RB1": "Javonte Williams (DAL)",
         "TE": "Jake Ferguson (DAL)",
-        "FLEX": "Jahmyr Gibbs (DET)",
-        "SUPERFLEX": "Dak Prescott (DAL)",
+        "FLEX": "Rashee Rice (KC)",
+        "SUPERFLEX": "Courtland Sutton (DEN)",
         "K": "Cameron Dicker (LAC)",
         "DEF": "New England Patriots (NE)"
       },
       "bench": [
-        "Courtland Sutton (DEN)",
+        "Jayden Daniels (WAS)",
+        "Davante Adams (LAR)",
+        "Jahmyr Gibbs (DET)",
         "Ashton Jeanty (LV)",
         "Brian Thomas Jr. (JAX)",
-        "Tetairoa McMillan (CAR)",
-        "Emeka Egbuka (TB)",
-        "Los Angeles Chargers DEF (LAC)",
-        "Brock Bowers (LV)"
+        "Los Angeles Chargers DEF (LAC)"
       ],
       "ir": [
+        "Brock Bowers (LV)",
         "Omarion Hampton (LAC)"
       ],
-      "week": 7,
-      "last_updated": "2025-10-19"
+      "week": 8,
+      "last_updated": "2025-10-23"
     },
     "blob_r4_c4": {
       "v": 3,
       "watchlist": [
+        {
+          "name": "Emeka Egbuka",
+          "pos": "WR",
+          "team": "TB",
+          "status": "Q"
+        },
+        {
+          "name": "Drake London",
+          "pos": "WR",
+          "team": "ATL"
+        },
         {
           "name": "Dillon Gabriel",
           "pos": "QB",
@@ -180,10 +191,20 @@
           "team": "KC"
         },
         {
-          "name": "DJ Moore",
+          "name": "Chris Olave",
           "pos": "WR",
-          "team": "CHI",
+          "team": "NO",
           "status": "Q"
+        },
+        {
+          "name": "Malik Washington",
+          "pos": "WR",
+          "team": "MIA"
+        },
+        {
+          "name": "Jauan Jennings",
+          "pos": "WR",
+          "team": "SF"
         },
         {
           "name": "Tez Johnson",
@@ -191,30 +212,15 @@
           "team": "TB"
         },
         {
-          "name": "RJ Harvey",
-          "pos": "RB",
-          "team": "DEN"
-        },
-        {
-          "name": "Jauan Jennings",
+          "name": "DJ Moore",
           "pos": "WR",
-          "team": "SF",
+          "team": "CHI",
           "status": "Q"
         },
         {
-          "name": "Mason Taylor",
-          "pos": "TE",
-          "team": "NYJ"
-        },
-        {
-          "name": "Michael Carter",
+          "name": "RJ Harvey",
           "pos": "RB",
-          "team": "ARI"
-        },
-        {
-          "name": "Juwan Johnson",
-          "pos": "TE",
-          "team": "NO"
+          "team": "DEN"
         },
         {
           "name": "Oronde Gadsden",
@@ -222,25 +228,14 @@
           "team": "LAC"
         },
         {
-          "name": "Brock Bowers",
+          "name": "Mason Taylor",
           "pos": "TE",
-          "team": "LV",
-          "status": "Q"
+          "team": "NYJ"
         },
         {
-          "name": "Dylan Sampson",
-          "pos": "RB",
-          "team": "CLE"
-        },
-        {
-          "name": "Brashard Smith",
-          "pos": "RB",
-          "team": "KC"
-        },
-        {
-          "name": "Emeka Egbuka",
-          "pos": "WR",
-          "team": "TB",
+          "name": "Juwan Johnson",
+          "pos": "TE",
+          "team": "NO",
           "status": "Q"
         },
         {
